@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <style>
+       .manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+
 </head>
-<body>
-    
+<body class="manrope max-w-screen-2xl mx-auto box-border">
+    <div class="navContainer flex justify-between items-center mt-8 mx-5 mb-8">
+        <div>
+            <span class="material-symbols-outlined bg-[#ABEF5F] rounded-full font-thin">
+                arrow_outward
+            </span>
+            <span class="text-3xl font-extrabold  ">Rinterio</span>
+        </div>
+        <div class="hidden text-base font-extrabold lg:flex gap-9 justify-between ">
+            <span class="">Home</span>
+            <span class="">Service</span>
+            <span class="">Portfolio</span>
+            <span class="">Blogs</span>
+            <span>Contact Us</span>
+        </div>
+        <div class="hidden lg:inline">
+            <span class="material-symbols-outlined text-2xl text-[#737373]">
+                search
+            </span>
+            <span class="material-symbols-outlined text-2xl text-[#737373]">
+                shopping_cart
+            </span>
+            <span class="bg-[#ABEF5F] rounded-3xl px-5 py-3 inline-flex">
+                <span class="mr-2 text-xl font-extrabold">Book Consult</span>
+                <span class="material-symbols-outlined text-white bg-[#1C1C1C] rounded-[100%] font-thin">
+                arrow_outward
+                </span>
+            </span>
+            
+
+        </div>
+        <div>
+            <span class="material-symbols-outlined text-2xl text-[#737373]">
+            menu
+            </span>
+        </div>
+    </div>
+    <div class="header w-80 mx-auto text-center">
+        <div class="image max-w-64 mx-auto mb-4"><img class="" src="./assets/banner.png" alt=""></div>
+        <h2 class="text-3xl font-extrabold mb-4">A barn house of this design  has a striking appearance</h2>
+        <p class="text-sm font-medium mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <button class=" bg-[#ABEF5F80] px-6 py-3 text-xl font-bold w-full rounded-full flex gap-2 justify-center items-center">View Details  
+            <span class="material-symbols-outlined bg-[#ABEF5F] rounded-full font-thin">
+                arrow_outward
+            </span>
+        </button>
+    </div>
 </body>
 </html>
